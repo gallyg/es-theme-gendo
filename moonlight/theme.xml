@@ -1,0 +1,17 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <include>./../main.xml</include>
+  <include>./art.xml</include>
+  <view name="system">
+    <image name="logo">
+      <path>./data/logo.svg</path>
+    </image>
+  </view>
+  <view name="basic, detailed">
+    <image name="logo">
+      <path>./data/logo.svg</path>
+    </image>
+  </view>
+  <view name="basic"></view>
+  <view name="detailed"></view>
+</theme>

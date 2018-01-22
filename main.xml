@@ -1,0 +1,58 @@
+<!--
+theme name:		gendo
+version:		1.0
+Description:	Based on Simple 1.4 theme by nils bonenberger (nilsbyte@nilsbyte.de)
+author:			Gally Gunnm
+website:		https://github.com/gallyg/es-theme-gendo
+license:		Creative commons CC-BY-NC-SA
+
+https://github.com/RetroPie/EmulationStation/blob/master/THEMES.md
+-->
+
+<theme>
+  <formatVersion>4</formatVersion>
+  <include>./_inc/colorset.xml</include>
+  <include>./_inc/layout.xml</include>
+  <include>./_inc/font.xml</include>
+  <!-- General systems view - Vue générale des systèmes -->
+  <view name="system">
+    <sound name="directory">
+      <path>./_inc/music</path>
+    </sound>
+    <image name="logocdo" extra="true">
+      <path>./_inc/assets/clubdo.svg</path>
+    </image>
+  </view>
+  <!-- //General systems view - Vue générale des systèmes -->
+  <!-- Eléments vues listes simples et listes complètes -->
+  <view name="basic, detailed">
+    <image name="background">
+      <path>./_inc/assets/list-detailed-view-bg.jpg</path>
+    </image>
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite, md_description">
+      <fontPath>./_inc/fonts/Boogaloo-Regular.ttf</fontPath>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed">
+      <fontPath>./_inc/fonts/Boogaloo-Regular.ttf</fontPath>
+    </datetime>
+    <textlist name="gamelist">
+      <fontPath>./_inc/fonts/Boogaloo-Regular.ttf</fontPath>
+    </textlist>
+  </view>
+  <!-- //Eléments vues listes simples et listes complètes -->
+  <!-- Eléments vues listes simples -->
+  <view name="basic">
+    <image name="background">
+      <path>./_inc/assets/list-view-bg.jpg</path>
+    </image>
+  </view>
+  <!-- //Eléments vues listes simple -->
+  <!-- Eléments listes complètes -->
+  <view name="detailed">
+    <rating name="md_rating">
+      <filledPath>./_inc/assets/star_filled_spacing.svg</filledPath>
+      <unfilledPath>./_inc/assets/star_hollow_3_spacing.svg</unfilledPath>
+    </rating>
+  </view>
+  <!-- //Eléments listes complètes -->
+</theme>

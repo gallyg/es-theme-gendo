@@ -1,0 +1,22 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <!-- General systems view - Vue générale des systèmes -->
+  <view name="system"></view>
+  <!-- //General systems view - Vue générale des systèmes -->
+  <!-- Eléments vues listes simples et listes complètes -->
+  <view name="basic, detailed">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite, md_description">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.025</fontSize>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.025</fontSize>
+    </datetime>
+    <textlist name="gamelist">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.03</fontSize>
+    </textlist>
+  </view>
+  <!-- //Eléments vues listes simples et listes complètes -->
+</theme>
